@@ -1,4 +1,4 @@
-package groovyR
+package groovyR.chapter2
 
 //groovy的迭代方式：
 println "0..2----------------------"

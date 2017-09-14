@@ -1,4 +1,4 @@
-package groovyR
+package groovyR.chapter2
 
 // 1. 去掉main和类定义，这样就变成了一个srcipt了
 //class Test2_1_1 {
