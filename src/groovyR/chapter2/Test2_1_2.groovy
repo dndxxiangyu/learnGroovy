@@ -23,3 +23,5 @@ println "\r\nstep------------------------"
 1.step(10, 2) {
     print "$it "
 }
+a = 1..2
+println a[1]
