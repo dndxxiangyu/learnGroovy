@@ -40,3 +40,6 @@ class B implements Comparable {
 
 new A() == new A();
 new B() == new B();
+
+//Integer val = 4
+//val = "ccc"
