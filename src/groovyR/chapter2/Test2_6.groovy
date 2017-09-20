@@ -1,6 +1,7 @@
 package groovyR.chapter2
 
-
+//可以通过asType来为接口创建一个实例。
+//handle.asType(Class.forName("java.awt.event.${input}"));
 class Test2_6 {
     public static void main(String[] args) {
         ButtonJava buttonJava = new ButtonJava()

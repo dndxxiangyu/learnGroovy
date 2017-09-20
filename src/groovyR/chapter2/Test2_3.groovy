@@ -11,7 +11,8 @@ class Robot {
 }
 
 robot = new Robot(type: "arm", width: 10, height: 40)
-println "$robot.type, $robot.height, $robot.height"
+robot = new Robot(type: "arm", width: 10)
+println "$robot.type, $robot.width, $robot.height"
 robot.access(x:1, y:2, 2, true)
 robot.access(1, 2, true)
 robot.access(50, true, x:30, y:20)
