@@ -25,3 +25,8 @@ closureB = {
     println 'closureB'
 }
 closureB
+
+ def clae() {
+    10
+}
+println clae()
