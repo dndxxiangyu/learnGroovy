@@ -21,7 +21,7 @@ doSomething() {
 doSomething()
 
 
-def examine(closure) {
+def examine(Closure closure) {
     println "$closure.maximumNumberOfParameters parameter(s) given:"
     for (aParameter in closure.parameterTypes) {
         println aParameter.name
