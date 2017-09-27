@@ -20,3 +20,18 @@ println totalSelectValues(10, {it % 2 == 0})
 
 def isOdd = { it % 2 != 0 }
 println totalSelectValues(10, isOdd)
+
+/**
+ * 闭包传递参数
+ */
+def tellforture(closure) {
+    closure new Date("09/20/2012"), "your day is filled with ceremony"
+}
+
+tellforture() { date, fortune ->
+    println "fortune for ${date} is ${fortune}"
+}
+dateClosure = { date, fortune ->
+    println "fortune for ${date} is ${fortune}"
+}
+tellforture(dateClosure)
