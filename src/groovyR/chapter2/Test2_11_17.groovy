@@ -30,3 +30,12 @@ closureB
     10
 }
 println clae()
+
+
+def shout(str) {
+    println "printing in uppercase"
+    println str.toUpperCase();
+}
+//显示MissingMethodException：表示object没有toUpperCase方法。
+//shout(new Object())
+shout("cccc")
